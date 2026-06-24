@@ -1,78 +1,93 @@
-*{
-    font-family: "Times New Roman", Times, serif;
-    box-sizing: border-box;
-}
+/* Trang giới thiệu */
 
 body{
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    min-height:100vh;
-    background:linear-gradient(135deg,#f8c8dc,#d6e4ff,#e0e0e0);
+    margin:0;
+    padding:0;
+    font-family: Arial, sans-serif;
+    background:#f4f9f4;
+}
+
+header{
+    background:#2e7d32;
+    color:white;
+    text-align:center;
+    padding:30px;
+}
+
+nav{
+    background:#1b5e20;
+    text-align:center;
+    padding:15px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 20px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:#c8e6c9;
 }
 
 .container{
-    background-color:white;
+    width:80%;
+    margin:30px auto;
+    background:white;
     padding:30px;
-    border-radius:15px;
-    box-shadow:0 5px 15px rgba(0,0,0,0.2);
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
 }
 
-#title{
-    text-transform:uppercase;
-    font-size:40px;
-    color:#ff1493;
+.container h2{
+    color:#2e7d32;
     text-align:center;
     margin-bottom:20px;
 }
 
-form#frmLogin{
-    background-color:#fff0f5;
-    padding:30px;
-    border-radius:12px;
-    width:500px;
+.container h3{
+    color:#388e3c;
+    margin-top:25px;
 }
 
-label{
-    display:block;
-    text-align:left;
-    color:#6a5acd;
-    font-weight:bold;
+.container p{
+    line-height:1.8;
+    color:#333;
+    text-align:justify;
 }
 
-div.form-group{
-    margin-bottom:15px;
-}
-
-input.form-control{
+.banner-gioithieu{
     width:100%;
-    padding:10px;
-    border:2px solid #c0c0c0;
-    border-radius:8px;
+    border-radius:10px;
+    margin:20px 0;
 }
 
-input.form-control:focus{
-    border-color:#87cefa;
-    background-color:#f0f8ff;
+.info-box{
+    display:flex;
+    justify-content:space-around;
+    margin-top:30px;
+    flex-wrap:wrap;
 }
 
-input.button{
-    background-color:#9370db;
+.box{
+    width:250px;
+    background:#e8f5e9;
+    padding:20px;
+    margin:10px;
+    border-radius:10px;
+    text-align:center;
+    box-shadow:0 0 8px rgba(0,0,0,0.1);
+}
+
+.box h4{
+    color:#1b5e20;
+}
+
+footer{
+    background:#2e7d32;
     color:white;
-    border:none;
-    padding:12px 20px;
-    border-radius:8px;
-    cursor:pointer;
-}
-
-input.button:hover{
-    background-color:#ff69b4;
-}
-
-a{
-    color:#20b2aa;
-}
-
-a:hover{
-    color:#ff4500;
+    text-align:center;
+    padding:15px;
+    margin-top:40px;
 }

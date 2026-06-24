@@ -1,0 +1,186 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f4f4f4;
+}
+
+header{
+    background:#2e7d32;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+nav{
+    background:#1b5e20;
+    text-align:center;
+    padding:10px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 15px;
+    font-weight:bold;
+}
+
+.products{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    padding:30px;
+    flex-wrap:wrap;
+}
+
+.product{
+    background:white;
+    width:300px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.2);
+    text-align:center;
+    padding:15px;
+}
+
+.product img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+    border-radius:10px;
+}
+
+.product h3{
+    margin:10px 0;
+}
+
+.product p{
+    color:red;
+    font-weight:bold;
+}
+
+button{
+    background:#4caf50;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    border-radius:5px;
+    cursor:pointer;
+    margin-top:10px;
+}
+
+button:hover{
+    background:#2e7d32;
+}
+
+footer{
+    background:#2e7d32;
+    color:white;
+    text-align:center;
+    padding:15px;
+    margin-top:20px;
+}
+.btn-buy{
+    display:inline-block;
+    background:#4caf50;
+    color:white;
+    text-decoration:none;
+    padding:10px 20px;
+    border-radius:5px;
+}
+/* Trang giới thiệu */
+
+body{
+    margin:0;
+    padding:0;
+    font-family: Arial, sans-serif;
+    background:#f4f9f4;
+}
+
+header{
+    background:#2e7d32;
+    color:white;
+    text-align:center;
+    padding:30px;
+}
+
+nav{
+    background:#1b5e20;
+    text-align:center;
+    padding:15px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 20px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:#c8e6c9;
+}
+
+.container{
+    width:80%;
+    margin:30px auto;
+    background:white;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+.container h2{
+    color:#2e7d32;
+    text-align:center;
+    margin-bottom:20px;
+}
+
+.container h3{
+    color:#388e3c;
+    margin-top:25px;
+}
+
+.container p{
+    line-height:1.8;
+    color:#333;
+    text-align:justify;
+}
+
+.banner-gioithieu{
+    width:100%;
+    border-radius:10px;
+    margin:20px 0;
+}
+
+.info-box{
+    display:flex;
+    justify-content:space-around;
+    margin-top:30px;
+    flex-wrap:wrap;
+}
+
+.box{
+    width:250px;
+    background:#e8f5e9;
+    padding:20px;
+    margin:10px;
+    border-radius:10px;
+    text-align:center;
+    box-shadow:0 0 8px rgba(0,0,0,0.1);
+}
+
+.box h4{
+    color:#1b5e20;
+}
+
+footer{
+    background:#2e7d32;
+    color:white;
+    text-align:center;
+    padding:15px;
+    margin-top:40px;
+}
