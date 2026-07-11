@@ -184,3 +184,147 @@ footer{
     padding:15px;
     margin-top:40px;
 }
+/* Trang chủ */
+
+.home-banner{
+    height:420px;
+    background:linear-gradient(rgba(0,0,0,.45),rgba(0,0,0,.45)),
+    url("../assets/images/banner.jpg");
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    color:#fff;
+}
+
+.banner-content h2{
+    font-size:50px;
+    font-weight:bold;
+}
+
+.banner-content p{
+    font-size:22px;
+    margin:20px 0;
+}
+
+.home-about{
+    width:80%;
+    margin:50px auto;
+    text-align:center;
+}
+
+.home-about h2{
+    color:#2e7d32;
+    margin-bottom:20px;
+}
+
+.category{
+    width:90%;
+    margin:auto;
+    text-align:center;
+}
+
+.cate-box{
+    background:#fff;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 0 10px rgba(0,0,0,.15);
+    margin:20px;
+    transition:.3s;
+}
+
+.cate-box:hover{
+    transform:translateY(-8px);
+}
+
+.featured{
+    width:90%;
+    margin:60px auto;
+    text-align:center;
+}
+
+.product-card{
+    background:#fff;
+    padding:20px;
+    border-radius:15px;
+    box-shadow:0 0 12px rgba(0,0,0,.15);
+    margin-bottom:30px;
+}
+
+.product-card img{
+    height:220px;
+    object-fit:cover;
+    border-radius:10px;
+}
+
+.product-card h4{
+    margin-top:15px;
+}
+
+.product-card p{
+    color:red;
+    font-weight:bold;
+}
+/* ======= Trang liên hệ ======= */
+
+.contact-container{
+    width:85%;
+    margin:40px auto;
+    background:#fff;
+    padding:40px;
+    border-radius:15px;
+    box-shadow:0 0 15px rgba(0,0,0,0.15);
+}
+
+.contact-container h2{
+    text-align:center;
+    color:#2e7d32;
+    margin-bottom:35px;
+    font-weight:bold;
+}
+
+.contact-container h4{
+    color:#1b5e20;
+    margin-bottom:20px;
+}
+
+.contact-container p{
+    font-size:18px;
+    line-height:35px;
+}
+
+.form-control{
+    border-radius:10px;
+    padding:12px;
+}
+
+.form-control:focus{
+    border-color:#4CAF50;
+    box-shadow:0 0 8px rgba(76,175,80,.4);
+}
+
+.btn-success{
+    background:#2e7d32;
+    border:none;
+    padding:10px 30px;
+    border-radius:10px;
+}
+
+.btn-success:hover{
+    background:#1b5e20;
+}
+.btn-buy{
+    display: inline-block;
+    background: #2e7d32;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn-buy:hover{
+    background: #1b5e20;
+}
